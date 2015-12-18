@@ -1,0 +1,3 @@
+Allows you to write words using hipchat emoticons
+
+Usage: ruby emotify.rb word primary_emote secondary_emote
