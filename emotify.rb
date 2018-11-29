@@ -11,5 +11,5 @@ letters.each do |letter|
 end
 
 output.each_value do |line|
-  puts line.gsub(/1/,"(#{ARGV[1]})").gsub(/0/,"(#{ARGV[2]})")
+  puts line.gsub(/1/,":#{ARGV[1]}:").gsub(/0/,":#{ARGV[2]}:")
 end
